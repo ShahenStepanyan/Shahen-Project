@@ -1,0 +1,31 @@
+table tr td {
+    padding: 20px;
+}
+* {
+    color: white;
+    font-size: 20px;
+}
+button {
+    color: black;
+}
+th {
+    text-align: center;
+}
+img {
+    width: 60px;
+    height: 60px;
+}
+#icons {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+}
+
+.butt-style{
+    padding: 5px  30px;
+    border-radius: 30px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgrey;
+    margin-bottom: 40px
+}

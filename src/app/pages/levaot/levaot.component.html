@@ -1,0 +1,22 @@
+<app-header></app-header>
+
+<div id="wind">
+  <div id="adm-block">
+    <div>
+      <ul>
+        <li class="dis-text">
+          <a [routerLink]="['/admin/work_with']" routerLinkActive="router-link-active">Work with</a>
+        </li>
+        <li class="dis-text">
+          <a [routerLink]="['/admin/nav_links']" routerLinkActive="router-link-active">Nav links</a>
+        </li>
+        <li class="dis-text">
+          <a [routerLink]="['/admin/courser']" routerLinkActive="router-link-active">Courser</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="info">
+    <router-outlet></router-outlet>
+  </div>
+</div>

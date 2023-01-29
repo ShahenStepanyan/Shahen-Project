@@ -1,0 +1,24 @@
+table tr td {
+    padding: 20px;
+}
+* {
+    color: white;
+    font-size: 20px;
+}
+button {
+    color: black;
+}
+th {
+    text-align: center;
+}
+input {
+    color: black;
+}
+.butt-style{
+    padding: 5px  30px;
+    border-radius: 30px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgrey;
+    margin-bottom: 40px;
+}

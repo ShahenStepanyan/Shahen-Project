@@ -1,0 +1,24 @@
+<header>
+  <nav>
+    <div id="navbar-logo">
+      <a routerLink="/home"><img src="assets/images/logo.png" alt="LOGO"></a>
+    </div>
+    <div id="navbar-menu">
+      <ul>
+        <li *ngFor="let link of date"><a routerLink="/{{this.link.itemlink}}" routerLinkActive="active"
+            class="textnav">{{this.link.itemname}}</a></li>
+        <li><a routerLink="/login"><img  src="assets/images/user.png" alt="user" id="user"></a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <span id="drpdow"><img  src="/assets/images/menu.png" style="margin-bottom: 15px;" alt="menu"></span>
+      <div class="dropdown-content">
+        <ul>
+          <li *ngFor="let link of date"><a routerLink="/{{link.itemlink}}"
+              routerLinkActive="active">{{link.itemname}} ></a></li>
+          <li><a routerLinkActive="active"><img style="width: 35px; height: 35px;" src="assets/images/user.png"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

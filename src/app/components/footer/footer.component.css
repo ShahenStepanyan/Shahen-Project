@@ -1,0 +1,36 @@
+footer {
+  color: white;
+  padding: 100px 0 10px 10px;
+}
+
+.text-p-margin {
+  margin-left: 70px;
+}
+
+#footer-cont {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-margin {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+  * {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #footer-cont>div {
+    margin: 15px 0;
+    text-align: center;
+  }
+}

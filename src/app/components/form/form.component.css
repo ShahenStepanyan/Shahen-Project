@@ -1,0 +1,161 @@
+section {
+  padding: 100px 0;
+  background-image: url(/assets/images/sectionBG.png);
+  background-repeat: no-repeat;
+  background-position: 90% 272%;
+  -moz-box-shadow: inset 0 -50px 50px -50px white;
+  -webkit-box-shadow: inset 0 -50px 50px -50px white;
+  box-shadow: inset 0 -50px 50px -50px white;
+}
+
+.section-conteiner {
+  width: 90%;
+  margin: auto;
+}
+
+.section-conteiner>h2 {
+  font-family: 'KyivType Sans Bold';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 132.9%;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  text-align: right;
+}
+
+#section-form {
+  display: flex;
+}
+
+#section-form>div {
+  padding-top: 20px;
+  width: 50%;
+}
+
+#section-form input {
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+  background-color: transparent;
+  border: 4px solid #728BAD;
+  border-radius: 30px;
+  color: white;
+}
+
+#section-form input::placeholder {
+  color: #D9D9D982;
+  font-size: 20px;
+  padding: 3px 15px;
+}
+
+#section-form textarea {
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+  background-color: transparent;
+  border: 4px solid #728BAD;
+  border-radius: 42px;
+  color: white;
+}
+
+#section-form textarea::placeholder {
+  padding: 3px 15px;
+  font-size: 20px;
+
+}
+
+#section-form button {
+  align-items: center;
+  padding: 6px 50px;
+  background: #728BAD;
+  border-radius: 42px;
+  border: 1px solid transparent;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #F5F5F5;
+  transition: all 1s;
+  cursor: pointer
+}
+
+#section-form button:hover {
+  background-color: #1d1e1fbf;
+  box-shadow: 0px 0px 19px 1px white;
+}
+
+#section-form p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 139.4%;
+  text-align: right;
+  color: #F5F5F5;
+}
+
+#section-contact {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  line-height: 100px;
+  color: white;
+  -moz-box-shadow: inset 0 -50px 50px -50px white;
+  -webkit-box-shadow: inset 0 -50px 50px -50px white;
+  box-shadow: inset 0 -50px 50px -50px white;
+}
+
+#section-contact h2 {
+  font-family: 'KyivType Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 132.9%;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  margin-bottom: 50px;
+}
+
+#section-contact div {
+  width: 550px;
+  padding: 15px;
+}
+
+#h-m {
+  text-align: right;
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+  section {
+    background-position: 174% 171%;
+  }
+
+  .section-conteiner>h2 {
+    font-size: 60px;
+    line-height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #section-form>div {
+    width: 300px;
+  }
+
+  #section-contact h2 {
+    font-size: 50px;
+  }
+
+  .section-conteiner>h2 {
+    font-size: 40px;
+    line-height: 90%;
+  }
+}

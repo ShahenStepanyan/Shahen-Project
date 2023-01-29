@@ -1,0 +1,70 @@
+#conteinerlogin {
+    width: 400px;
+    margin: auto;
+    padding-top: 200px;
+}
+* {
+    padding-top: 10px;
+}
+input {
+    outline: none;
+}
+label {
+    color: white;
+}
+input.ng-invalid.ng-touched.ng-dirty {
+    border: 2px solid red;
+}
+input.ng-valid.ng-touched.ng-dirty {
+    border: 2px solid green;
+}
+@media screen and (max-width: 768px) {
+    #conteinerlogin {
+        width: 90%;
+    }
+}
+html,body {
+    height: 100%;
+  }
+  
+  .global-container{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.pinimg.com/originals/4a/2c/07/4a2c07ad2f690c10f9f5d0575c3c9ade.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form{
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  
+  .card-title{ font-weight:300;  color: white;}
+  
+  .btn{
+    font-size: 14px;
+    margin-top:20px;
+  }
+  
+  
+  .login-form{
+    width:330px;
+    height: 100vh;
+    margin:20px;
+  }
+  
+  .sign-up{
+    text-align:center;
+    padding:20px 0 0;
+  }
+  
+  .alert{
+    margin-bottom:-30px;
+    font-size: 13px;
+    margin-top:20px;
+  }
+  

@@ -1,0 +1,156 @@
+
+nav {
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  position: absolute;
+  z-index: 10;
+  background-color: #1E0C06;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textnav {
+  text-decoration: none;
+  padding: 8px;
+  transition: all 1s;
+  border-radius: 5px;
+}
+
+.textnav:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+.active {
+  color: grey;
+}
+
+
+#navbar-logo {
+  width: 35%;
+  padding: 15px 0 0 40px;
+
+}
+
+#navbar-logo img {
+  width: 160px;
+  height: 66px;
+}
+
+#navbar-menu {
+  width: 65%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  padding: 35px 30px;
+  text-align: right;
+}
+
+#navbar-menu ul li {
+  display: inline;
+  margin-left: 4rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  display: none;
+  padding-top: 30px;
+}
+
+#drpdow {
+  color: white;
+}
+
+.dropdown-content {
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 50px 8px;
+  z-index: 1000;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+
+}
+
+.dropdown:hover .dropdown-content {
+  background-color: #18181882;
+  display: block;
+  margin-left: -100px;
+  border-radius: 10px;
+  
+}
+
+
+
+.dropdown-content ul li a {
+  color: white;
+  background: none;
+  border: 0;
+  margin-bottom: 40px;
+  font-size: 15px;
+  transition: all 1s;
+}
+
+
+.dropdown-content ul li a:hover {
+    color: grey;
+}
+
+
+.dropdown-content a {
+  text-decoration: none;
+}
+
+#header-bg {
+  top: -10px;
+  left: -10px;
+  width: 53%;
+  height: 100%;
+}
+
+#user {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  #navbar-menu ul li {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #navbar-menu {
+    font-size: 18px;
+  }
+
+  #navbar-menu {
+    padding: 35px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown {
+    display: block;
+  }
+
+  #navbar-menu {
+    display: none;
+  }
+
+  * {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #navbar-logo {
+    padding: 15px 0 0 10px;
+  }
+}

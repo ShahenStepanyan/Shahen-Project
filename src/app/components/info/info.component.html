@@ -1,0 +1,19 @@
+<div id="info">
+  <h2  style="margin-bottom: 120px;">
+    THE WOOD WE<br> WORK WITH
+  </h2>
+  <div id="info_cont">
+    <div *ngFor="let item of date;">
+      <div>
+        <img src="{{item.image}}" alt="image"><br>
+        <p style="font-size: 20px; margin-bottom: 30px; margin-top: 30px;">{{item.title}}</p>
+      </div>
+      <div id="info-text">
+        <p *ngFor="let info of item.category">
+          <img src="{{info.icon}}" alt="true">
+          {{info.name}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
